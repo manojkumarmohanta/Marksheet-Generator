@@ -21,7 +21,7 @@
     <!-- Responsive navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.php">GENCERT-NIIS</a>
+            <a class="navbar-brand" href="index.php"><img src="images/certificate-logo.png" height="30px auto" class="mx-2"/>GENCERT-NIIS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -34,13 +34,13 @@
         </div>
     </nav>
     <!-- Header - set the background image for the header in the line below-->
-    <header class="py-5 bg-image-full" style="background-image: url('images/niiscollege.jpg')">
+    <header class="py-5 bg-image-full" style="background-image: url('images/niiscollege.jpg');">
 
     </header>
     <!-- Content section-->
     <section class="py-5">
-        <div class="container my-4">
-            <div class="row justify-content-center">
+        <div class="container my-2">
+            <div class="row justify-content-left">
                 <div class="col-lg-6">
                     <h2>News and Updates</h2>
                     <hr color="#000" />

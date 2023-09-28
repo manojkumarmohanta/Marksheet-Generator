@@ -50,7 +50,7 @@ if(strlen($_SESSION['alogin'])=="")
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <a class="dashboard-stat bg-primary" href="/admin/manage-students.php">
+                                        <a class="dashboard-stat bg-primary" href="manage-students.php">
                                         <?php 
                                             $sql1 ="SELECT id from student ";
                                             $query1 = $dbh -> prepare($sql1);
@@ -70,7 +70,7 @@ if(strlen($_SESSION['alogin'])=="")
 
                                     
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" >
-                                        <a class="dashboard-stat bg-danger" href="/admin/manage-subjects.php">
+                                        <a class="dashboard-stat bg-danger" href="manage-subjects.php">
                                             
                                         <?php 
                                             $sql ="SELECT id from  tblsubjects ";
@@ -92,7 +92,7 @@ if(strlen($_SESSION['alogin'])=="")
 
 
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top:1%;">
-                                        <a class="dashboard-stat bg-warning" href="/admin/manage-branch.php">
+                                        <a class="dashboard-stat bg-warning" href="manage-branch.php">
                                         <?php 
                                             $sql2 ="SELECT id from  Branch ";
                                             $query2 = $dbh -> prepare($sql2);
@@ -133,7 +133,7 @@ if(strlen($_SESSION['alogin'])=="")
 
                                     <!-- /.col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top:1%;">
-                                        <a class="dashboard-stat bg-primary" href="/admin/manage-teachers.php">
+                                        <a class="dashboard-stat bg-primary" href="manage-teachers.php">
                                         <?php 
                                             $sql2 ="SELECT UserName from  teacher ";
                                             $query2 = $dbh -> prepare($sql2);

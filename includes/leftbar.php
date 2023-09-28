@@ -1,3 +1,11 @@
+<?php
+session_start();
+error_reporting(0);
+include('../includes/config.php');
+$conn = mysqli_connect('localhost','root','','niis_db'); 
+?>
+
+
 <div class="left-sidebar bg-black-300 box-shadow ">
                         <div class="sidebar-content">
                             <div class="user-info closed">
