@@ -147,13 +147,13 @@ else if($error){?>
                                                     </tbody>
                                                 </table>
 
-                                         
+                                            
                                                 <!-- /.col-md-12 -->
                                             </div>
                                         </div>
                                     </div>
                                     <!-- /.col-md-6 -->
-
+                                    </div>
                                                                
                                                 </div>
                                                 <!-- /.col-md-12 -->

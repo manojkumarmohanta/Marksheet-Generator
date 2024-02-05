@@ -12,9 +12,10 @@
     <meta name="author" content="" />
     <title>Welcome To NIIS Institute of Info Science and Management</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    
 </head>
 
 <body>
@@ -34,8 +35,8 @@
         </div>
     </nav>
     <!-- Header - set the background image for the header in the line below-->
-    <header class="py-5 bg-image-full" style="background-image: url('images/niiscollege.jpg');">
-
+    <header class="py-5 bg-image-full" style="background-image: url('images/niiscollege.jpg');filter:brightness(0.5)">
+        
     </header>
     <!-- Content section-->
     <section class="py-5">
