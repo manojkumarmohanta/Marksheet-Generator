@@ -15,7 +15,25 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-    
+    <style>
+        .notification{
+            margin-top: 50px;
+            background-color: dark;
+            border: 1px solid gray;
+            border-radius: 5px;
+            height:200px;
+            filter: drop-shadow(2px 2px 4px gray);
+            
+        }
+        .notification:hover{
+            filter: drop-shadow(4px 4px 8px gray);
+        }
+        .notification h2{
+            color: #fff;
+            filter: opacity(1);
+        }
+        
+    </style>
 </head>
 
 <body>
@@ -35,14 +53,14 @@
         </div>
     </nav>
     <!-- Header - set the background image for the header in the line below-->
-    <header class="py-5 bg-image-full" style="background-image: url('images/niiscollege.jpg');filter:brightness(0.5)">
+    <header>
         
     </header>
     <!-- Content section-->
-    <section class="py-5">
-        <div class="container my-2">
+    <section class="py-5 bg-image-full " style="background-image: url('images/indexPage.jpg');filter:brightness(0.5);">
+        <div class="container my-2 ">
             <div class="row justify-content-left">
-                <div class="col-lg-6">
+                <div class="col-lg-6 notification">
                     <h2>News and Updates</h2>
                     <hr color="#000" />
                     <marquee direction="up" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
@@ -54,7 +72,7 @@
                             $cnt = 1;
                             if ($query->rowCount() > 0) {
                                 foreach ($results as $result) {   ?>
-                                    <li>
+                                    <li class="lists">
                                         <a href="notice-details.php?nid=<?php echo htmlentities($result->nid); ?>">
                                         <?php echo htmlentities($result->noticetitle); ?><?php echo " ("; echo htmlentities($result->postingDate); echo ")"?>
                                     </li>

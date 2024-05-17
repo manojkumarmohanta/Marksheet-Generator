@@ -43,14 +43,28 @@ echo "<script type='text/javascript'> document.location = '../admin/dashboard.ph
         <link rel="stylesheet" href="../css/prism/prism.css" media="screen" > <!-- USED FOR DEMO HELP - YOU CAN REMOVE IT -->
         <link rel="stylesheet" href="../css/main.css" media="screen" >
         <script src="../js/modernizr/modernizr.min.js"></script>
+        <link href="../css/styles.css" rel="stylesheet" />
+
     </head>
-    <body class="">
+    <body class="bg-image-full" style="background-image: url('../images/indexPage.jpg');">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../index.php"><img src="../images/certificate-logo.png" height="30px auto" class="mx-2"/>GENCERT-NIIS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item"><a class="nav-link active" href="admin/admin-login.php">Admin</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="teacher/teacher-login.php">Teacher</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="student/student-login.php">Student</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
         <div class="main-wrapper">
 
             <div class="">
                 <div class="row">
- <h1 align="center">Student Certificate Generator System</h1>
-                    
                          <div class="col-lg-3"></div>
                     <div class="col-lg-6">
                         <section class="section">
@@ -125,6 +139,8 @@ echo "<script type='text/javascript'> document.location = '../admin/dashboard.ph
         <script src="../js/pace/pace.min.js"></script>
         <script src="../js/lobipanel/lobipanel.min.js"></script>
         <script src="../js/iscroll/iscroll.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
         <!-- ========== PAGE JS FILES ========== -->
 
